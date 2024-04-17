@@ -1,0 +1,116 @@
+.bringctr {
+    text-align: center;
+}
+
+
+
+.btyone {
+    padding: 16px 32px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: #fff;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.btyone:hover {
+    color: #fff;
+    background-color: black;
+}
+
+
+.totalcanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: bisque;
+    width: 30vw;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: all .4s ease;
+}
+
+
+
+.yolo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: bisque;
+    width: 30vw;
+    height: 100vh;
+    transform: translateX(0);
+    transition: all .4s ease;
+
+}
+
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header h5 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.bty {
+    margin: 0;
+    background-color: #fff;
+    border: #fff;
+}
+
+.bty i {
+    color: black;
+    font-size: 24px;
+}
+
+
+.btyne {
+    padding: 12px 16px;
+    background-color: grey;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.dmenu {
+    display: none;
+}
+
+
+
+.menuvisi {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    padding: 12px 16px;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.menuvisi li {
+    padding: 8px 0px;
+}
+
+.menuvisi li a {
+    text-decoration: none;
+    color: black;
+}

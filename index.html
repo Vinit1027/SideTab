@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="SideTab.css">
+    <title>Side Tab</title>
+</head>
+<body>
+
+
+
+
+
+
+    <div class="bringctr">
+        <button class="btn btyone" onclick="offcanvasOpen();">OffCanvas_Open</button>
+        <button class="btn btyone" onclick="offcanvasClose();">OffCanvas_Close</button>
+    </div>
+    
+    
+    <div class="totalcanvas" id="canva">
+        <div class="header">
+            <h5>Offcanvas</h5>
+            <Button class="bty" onclick="offclose();"><i class="bi bi-x"></i></Button>
+        </div>
+        <div class="offcanvasbody">
+            <p>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+                etc.</p>
+            <div class="dropdown">
+                <button class="btyne" onclick="drpdown();">Dropdown Button <i class="bi bi-caret-down-fill"></i></button>
+                <ul class="dmenu" id="drpdowne">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="SideTab.js"></script>
+     
+</body>
+</html>
